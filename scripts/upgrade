@@ -87,6 +87,11 @@ then
 	ynh_setup_source --dest_dir=$final_path --source_id="$architecture" --keep="$final_path/$app.conf"
 fi
 
+chmod 750 "$final_path"
+chmod -R o-rwx "$final_path"
+chmod +x "$final_path/miniflux"
+chown -R $app:www-data "$final_path"
+
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
@@ -108,17 +113,6 @@ ynh_exec_warn_less ynh_install_app_dependencies $pkg_dependencies
 ynh_script_progression --message="Configuring a systemd service..." --weight=2
 
 ynh_add_systemd_config
-
-#=================================================
-# GENERIC FINALIZATION
-#=================================================
-# SECURE FILES AND DIRECTORIES
-#=================================================
-ynh_script_progression --message="Securing files and directories..."
-
-chmod 750 "$final_path"
-chmod -R o-rwx "$final_path"
-chown -R $app:www-data "$final_path"
 
 #=================================================
 # INTEGRATE SERVICE IN YUNOHOST
