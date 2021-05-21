@@ -20,9 +20,7 @@ Miniflux est un agrégateur de flux RSS minimaliste.
 
 ## Configuration
 
-La plupart des éléments peuvent être modifiés à la volée dans Web-UI dans la page de configuration.
-
-Vous pouvez configurer Simple Torrent en modifiant le fichier `/etc/miniflux.conf` en vous aidant de la [documentation](https://miniflux.app/docs/configuration.html).
+Vous pouvez configurer Miniflux en modifiant le fichier `/var/www/miniflux/miniflux.conf` en vous aidant de la [documentation](https://miniflux.app/docs/configuration.html).
 
 ## Documentation
 

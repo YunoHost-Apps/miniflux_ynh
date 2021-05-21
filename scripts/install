@@ -114,9 +114,9 @@ ynh_add_nginx_config
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/miniflux.conf" --destination="$final_path/miniflux.conf"
+ynh_add_config --template="../conf/miniflux.conf" --destination="$final_path/$app.conf"
 
-chmod 600 "$final_path/miniflux.conf"
+chmod 600 "$final_path/$app.conf"
 
 #=================================================
 # SETUP SYSTEMD

@@ -1,7 +1,7 @@
 # Miniflux for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/miniflux.svg)](https://dash.yunohost.org/appci/app/miniflux) ![](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)  
-[![Install Simple Torrent with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=miniflux/)
+[![Install Miniflux with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=miniflux/)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
@@ -20,9 +20,7 @@ Miniflux is a minimalist and opinionated feed reader.
 
 ## Configuration
 
-Most of the items can be edited in Web-UI on the fly in the config board.
-
-You can also configure Miniflux by editing this file `/etc/miniflux.conf` using the [documentation](https://miniflux.app/docs/configuration.html).
+You can also configure Miniflux by editing this file `/var/www/miniflux/miniflux.conf` using the [documentation](https://miniflux.app/docs/configuration.html).
 
 ## Documentation
 
