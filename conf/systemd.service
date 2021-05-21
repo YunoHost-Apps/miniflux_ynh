@@ -1,0 +1,13 @@
+[Unit]
+Description=Miniflux Service
+Documentation=https://miniflux.app/docs/#database-connection-parameters
+
+[Service]
+User=__APP__
+#Group=__APP__
+ExecStart=__FINALPATH__/__APP__ -config-file=__FINALPATH__/__APP__.conf
+EnvironmentFile=__FINALPATH__/__APP__.conf
+NonBlocking=true
+
+[Install]
+WantedBy=multi-user.target
