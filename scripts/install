@@ -86,8 +86,7 @@ ynh_app_setting_set --app=$app --key=db_name --value=$db_name
 ynh_psql_test_if_first_run
 ynh_psql_setup_db --db_user=$db_name --db_name=$db_name
 
-#ynh_psql_execute_as_root --sql="CREATE EXTENSION hstore;" --database=$db_name
-ynh_psql_connect_as --user=$db_name --password=$db_pwd --database=$db_name <<< "CREATE EXTENSION hstore;"
+ynh_psql_execute_as_root --sql="CREATE EXTENSION hstore;" --database=$db_name
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
