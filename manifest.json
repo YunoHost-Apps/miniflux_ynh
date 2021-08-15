@@ -6,7 +6,7 @@
         "en": "Minimalist and opinionated RSS feed reader",
         "fr": "Agrégateur de flux RSS minimaliste"
     },
-    "version": "2.0.31~ynh2",
+    "version": "2.0.32~ynh1",
     "url": "https://miniflux.app/",
     "upstream": {
         "license": "Apache-2.0",
