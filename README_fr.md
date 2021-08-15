@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Agrégateur de flux RSS minimaliste
 
-**Version incluse :** 2.0.31~ynh2
+**Version incluse :** 2.0.32~ynh1
 
 
 
