@@ -11,7 +11,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Agrégateur de flux RSS minimaliste
+Minimalist and opinionated RSS feed reader
 
 **Version incluse :** 2.0.32~ynh1
 
