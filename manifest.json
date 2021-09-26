@@ -6,7 +6,7 @@
         "en": "Minimalist and opinionated RSS feed reader",
         "fr": "Agrégateur de flux RSS minimaliste"
     },
-    "version": "2.0.32~ynh1",
+    "version": "2.0.33~ynh1",
     "url": "https://miniflux.app/",
     "upstream": {
         "license": "Apache-2.0",
@@ -29,8 +29,7 @@
         "install" : [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "domain.org"
+                "type": "domain"
             },
             {
                 "name": "path",
@@ -40,8 +39,7 @@
             },
             {
                 "name": "admin",
-                "type": "user",
-                "example": "johndoe"
+                "type": "user"
             },
             {
                 "name": "is_public",
@@ -58,8 +56,7 @@
                 "help": {
                     "en": "Must be more than 6 characters.",
                     "fr": "Doit contenir plus de 6 caractères."
-                },
-                "example": "Choose a password"
+                }
             }
         ]
     }
