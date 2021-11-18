@@ -53,7 +53,7 @@ ynh_script_progression --message="Ensuring downward compatibility..." --weight=1
 
 # If architecture doesn't exist, create it
 if [ -z "$architecture" ]; then
-	architecture="dpkg --print-architecture"
+	architecture=$YNH_ARCH
 	architecture=$(ynh_app_setting_get --app=$app --key=architecture)
 fi
 
