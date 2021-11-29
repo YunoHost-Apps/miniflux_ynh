@@ -51,12 +51,6 @@ ynh_abort_if_errors
 #=================================================
 ynh_script_progression --message="Ensuring downward compatibility..." --weight=1
 
-# If architecture doesn't exist, create it
-if [ -z "$architecture" ]; then
-	architecture=$YNH_ARCH
-	architecture=$(ynh_app_setting_get --app=$app --key=architecture)
-fi
-
 # Cleaning legacy permissions
 if ynh_legacy_permissions_exists; then
 	ynh_legacy_permissions_delete_all
