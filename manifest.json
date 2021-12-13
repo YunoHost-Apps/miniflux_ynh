@@ -6,7 +6,7 @@
         "en": "Minimalist and opinionated RSS feed reader",
         "fr": "Agrégateur de flux RSS minimaliste"
     },
-    "version": "2.0.33~ynh1",
+    "version": "2.0.33~ynh2",
     "url": "https://miniflux.app/",
     "upstream": {
         "license": "Apache-2.0",
@@ -19,7 +19,7 @@
         "name": "eric_G"
     },
     "requirements": {
-        "yunohost": ">= 4.2.4"
+        "yunohost": ">= 4.3.0"
     },
     "multi_instance": true,
     "services": [
