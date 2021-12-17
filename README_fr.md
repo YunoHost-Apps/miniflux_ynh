@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Minimalist and opinionated RSS feed reader
 
-**Version incluse :** 2.0.33~ynh2
+**Version incluse :** 2.0.34~ynh1
 
 
 
