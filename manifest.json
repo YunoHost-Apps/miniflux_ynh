@@ -57,7 +57,7 @@
                     "fr": "Si cette case est cochée, Miniflux sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
                 },
                 "default": true
-            },
+            }
         ]
     }
 }
