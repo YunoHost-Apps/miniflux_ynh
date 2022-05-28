@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Minimalist and opinionated RSS feed reader
 
-**Shipped version:** 2.0.36~ynh1
+**Shipped version:** 2.0.37~ynh1
 
 ## Screenshots
 
