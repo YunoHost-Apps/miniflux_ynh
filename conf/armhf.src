@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/miniflux/v2/releases/download/2.0.36/miniflux-linux-armv7
-SOURCE_SUM=db6f983294658f4d68961300dd3c6bee26a051c396968611f3852bd41d08ba24
+SOURCE_URL=https://github.com/miniflux/v2/releases/download/2.0.37/miniflux-linux-armv7
+SOURCE_SUM=1d300a4a60eace0fc2cd4c2efc00632451db53f3d1c21fe93a28c5002c45dcd2
 SOURCE_SUM_PRG=sha256sum
 SOURCE_IN_SUBDIR=false
 SOURCE_FILENAME=miniflux
