@@ -19,7 +19,6 @@ Minimalist and opinionated RSS feed reader
 
 **Shipped version:** 2.0.38~ynh1
 
-
 ## Screenshots
 
 ![Screenshot of Miniflux](./doc/screenshots/overview.png)
