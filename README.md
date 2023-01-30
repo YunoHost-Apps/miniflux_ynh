@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Miniflux for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/miniflux.svg)](https://dash.yunohost.org/appci/app/miniflux) ![Working status](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/miniflux.svg)](https://dash.yunohost.org/appci/app/miniflux) ![Working status](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
 [![Install Miniflux with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=miniflux)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Minimalist and opinionated RSS feed reader
 
-**Shipped version:** 2.0.41~ynh1
+**Shipped version:** 2.0.42~ynh1
 
 ## Screenshots
 

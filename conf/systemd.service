@@ -1,5 +1,5 @@
 [Unit]
-Description=Miniflux Feed Reader
+Description=Miniflux: feed Reader
 Documentation=https://miniflux.app/docs/#database-connection-parameters
 After=network.target postgresql.service
 
