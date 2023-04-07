@@ -6,6 +6,7 @@ It shall NOT be edited by hand.
 # Miniflux pour YunoHost
 
 [![Niveau d’intégration](https://dash.yunohost.org/integration/miniflux.svg)](https://dash.yunohost.org/appci/app/miniflux) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
+
 [![Installer Miniflux avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=miniflux)
 
 *[Read this readme in english.](./README.md)*
