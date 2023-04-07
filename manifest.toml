@@ -50,13 +50,16 @@ ram.runtime = "50M"
 [resources]
         [resources.sources.main]
         in_subdir = false
+        extract = false
+        rename = "miniflux"
+
         arm64.url = "https://github.com/miniflux/v2/releases/download/2.0.42/miniflux-linux-arm64"
         arm64.sha256 = "ad97817e47f2c3384965f8e379de04dcbb68f768d8dc0804386003a774effe06"
         amd64.url = "https://github.com/miniflux/v2/releases/download/2.0.42/miniflux-linux-amd64"
         amd64.sha256 = "b1706d1a9c059b83f660d7b3649b8bb3b401b9dd65bb06daf7413040dd4ff2c2"
         armhf.url = "https://github.com/miniflux/v2/releases/download/2.0.42/miniflux-linux-armv7"
         armhf.sha256 = "17901fb4ef1f29c41f79c42c8629d2b46071b2d0d528ba90a29966ff3dabb8ee"
-
+        
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = "^miniflux-linux-amd64$"
         autoupdate.asset.arm64 = "^miniflux-linux-arm64$"
