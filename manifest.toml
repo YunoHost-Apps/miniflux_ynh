@@ -1,0 +1,81 @@
+packaging_format = 2
+
+id = "miniflux"
+name = "Miniflux"
+description.en = "Minimalist and opinionated RSS feed reader"
+description.fr = "Agrégateur de flux RSS minimaliste"
+
+version = "2.0.42~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "Apache-2.0"
+website = "https://miniflux.app/"
+admindoc = "https://miniflux.app/docs/index.html"
+code = "https://github.com/miniflux/v2"
+
+[integration]
+yunohost = ">= 11.1.17"
+architectures = ["amd64", "armhf", "arm64"]
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/miniflux"
+
+    [install.admin]
+    type = "user"
+
+    [install.password]
+    help.en = "Password must be more than 6 characters."
+    help.fr = "Le mot de passe doit contenir plus de 6 caractères."
+    type = "password"
+
+    [install.init_main_permission]
+    help.en = "If enabled, Miniflux will be accessible by people who do not have an account. This can be changed later via the webadmin."
+    help.fr = "Si cette case est cochée, Miniflux sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        in_subdir = false
+        extract = false
+        rename = "miniflux"
+
+        arm64.url = "https://github.com/miniflux/v2/releases/download/2.0.42/miniflux-linux-arm64"
+        arm64.sha256 = "ad97817e47f2c3384965f8e379de04dcbb68f768d8dc0804386003a774effe06"
+        amd64.url = "https://github.com/miniflux/v2/releases/download/2.0.42/miniflux-linux-amd64"
+        amd64.sha256 = "b1706d1a9c059b83f660d7b3649b8bb3b401b9dd65bb06daf7413040dd4ff2c2"
+        armhf.url = "https://github.com/miniflux/v2/releases/download/2.0.42/miniflux-linux-armv7"
+        armhf.sha256 = "17901fb4ef1f29c41f79c42c8629d2b46071b2d0d528ba90a29966ff3dabb8ee"
+        
+        autoupdate.strategy = "latest_github_release"
+        autoupdate.asset.amd64 = "^miniflux-linux-amd64$"
+        autoupdate.asset.arm64 = "^miniflux-linux-arm64$"
+        autoupdate.asset.armhf = "^miniflux-linux-armv7$"
+
+    [resources.ports]
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "postgresql"
+
+    [resources.database]
+    type = "postgresql"

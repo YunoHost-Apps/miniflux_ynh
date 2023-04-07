@@ -6,6 +6,7 @@ It shall NOT be edited by hand.
 # Miniflux for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/miniflux.svg)](https://dash.yunohost.org/appci/app/miniflux) ![Working status](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
+
 [![Install Miniflux with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=miniflux)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -23,11 +24,6 @@ Minimalist and opinionated RSS feed reader
 
 ![Screenshot of Miniflux](./doc/screenshots/overview.png)
 
-## Disclaimers / important information
-
-## Configuration
-
-You can also configure Miniflux by editing this file `/var/www/miniflux/miniflux.conf` using the [documentation](https://miniflux.app/docs/configuration.html).
 ## Documentation and resources
 
 * Official app website: <https://miniflux.app/>
