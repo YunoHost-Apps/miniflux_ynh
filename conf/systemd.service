@@ -6,8 +6,8 @@ After=network.target postgresql.service
 [Service]
 Type=notify
 User=__APP__
-ExecStart=__FINALPATH__/miniflux -c __FINALPATH__/__APP__.conf
-EnvironmentFile=__FINALPATH__/__APP__.conf
+ExecStart=__INSTALL_DIR__/miniflux -c __INSTALL_DIR__/__APP__.conf
+EnvironmentFile=__INSTALL_DIR__/__APP__.conf
 NonBlocking=true
 Restart=always
 NoNewPrivileges=true
