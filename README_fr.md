@@ -24,11 +24,6 @@ Minimalist and opinionated RSS feed reader
 
 ![Capture d’écran de Miniflux](./doc/screenshots/overview.png)
 
-## Avertissements / informations importantes
-
-## Configuration
-
-Vous pouvez configurer Miniflux en modifiant le fichier `/var/www/miniflux/miniflux.conf` en vous aidant de la [documentation](https://miniflux.app/docs/configuration.html).
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://miniflux.app/>
