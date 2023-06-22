@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Minimalist and opinionated RSS feed reader
 
-**Version incluse :** 2.0.44~ynh1
+**Version incluse :** 2.0.45~ynh1
 
 ## Captures d’écran
 
