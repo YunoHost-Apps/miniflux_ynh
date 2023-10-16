@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Minimalist and opinionated RSS feed reader
 
-**Version incluse :** 2.0.48~ynh2
+**Version incluse :** 2.0.49~ynh1
 
 ## Captures d’écran
 
@@ -29,7 +29,6 @@ Minimalist and opinionated RSS feed reader
 * Site officiel de l’app : <https://miniflux.app/>
 * Documentation officielle de l’admin : <https://miniflux.app/docs/index.html>
 * Dépôt de code officiel de l’app : <https://github.com/miniflux/v2>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_miniflux>
 * Signaler un bug : <https://github.com/YunoHost-Apps/miniflux_ynh/issues>
 
 ## Informations pour les développeurs
