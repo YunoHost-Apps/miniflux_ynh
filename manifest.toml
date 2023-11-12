@@ -5,7 +5,7 @@ name = "Miniflux"
 description.en = "Minimalist and opinionated RSS feed reader"
 description.fr = "Agrégateur de flux RSS minimaliste"
 
-version = "2.0.49~ynh1"
+version = "2.0.50~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -19,8 +19,11 @@ code = "https://github.com/miniflux/v2"
 yunohost = ">= 11.2"
 architectures = ["amd64", "armhf", "arm64"]
 multi_instance = true
+
 ldap = false
+
 sso = false
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -53,12 +56,12 @@ ram.runtime = "50M"
         extract = false
         rename = "miniflux"
 
-        arm64.url = "https://github.com/miniflux/v2/releases/download/2.0.49/miniflux-linux-arm64"
-        arm64.sha256 = "6dcfd11a5c9ce615add3b89594c19a7b965465e4bbd3759f60673e489dc45cbe"
-        amd64.url = "https://github.com/miniflux/v2/releases/download/2.0.49/miniflux-linux-amd64"
-        amd64.sha256 = "1535c7fc4a3e5a89df6959dc0750e22f89a038037eee2ba377fcc2b69ee82e17"
-        armhf.url = "https://github.com/miniflux/v2/releases/download/2.0.49/miniflux-linux-armv7"
-        armhf.sha256 = "be7092cfc751d22cfc18e1e567cb59ae213770acf46fe7b992fa64306d5b6666"
+        arm64.url = "https://github.com/miniflux/v2/releases/download/2.0.50/miniflux-linux-arm64"
+        arm64.sha256 = "82d39a6e3664f4463e97031bfbe1c8ac8b3f0fbf052c7a760b545437a38d64bd"
+        amd64.url = "https://github.com/miniflux/v2/releases/download/2.0.50/miniflux-linux-amd64"
+        amd64.sha256 = "4a4de706237500c11226e629ac9f3c8b5200a88d07d48cf85bac72b232f07f66"
+        armhf.url = "https://github.com/miniflux/v2/releases/download/2.0.50/miniflux-linux-armv7"
+        armhf.sha256 = "61b11efe9fbb85449ec158b904383e746cda0fb82947a324e0c3a285e78f393f"
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = "^miniflux-linux-amd64$"
         autoupdate.asset.arm64 = "^miniflux-linux-arm64$"

@@ -1,3 +1,1 @@
-## Configuration
-
 You can also configure Miniflux by editing this file `__INSTALL_DIR__/miniflux.conf` using the [documentation](https://miniflux.app/docs/configuration.html).
