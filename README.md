@@ -29,6 +29,7 @@ Minimalist and opinionated RSS feed reader
 * Official app website: <https://miniflux.app/>
 * Official admin documentation: <https://miniflux.app/docs/index.html>
 * Upstream app code repository: <https://github.com/miniflux/v2>
+* YunoHost Store: <https://apps.yunohost.org/app/miniflux>
 * Report a bug: <https://github.com/YunoHost-Apps/miniflux_ynh/issues>
 
 ## Developer info
