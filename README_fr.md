@@ -16,7 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Minimalist and opinionated RSS feed reader
+Lecteur de flux RSS minimaliste.
 
 **Version incluse :** 2.0.50~ynh1
 
