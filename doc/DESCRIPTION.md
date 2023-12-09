@@ -1,1 +1,1 @@
-Minimalist and opinionated RSS feed reader
+Minimalist and opinionated RSS feed reader.

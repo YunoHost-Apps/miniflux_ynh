@@ -37,8 +37,8 @@ then
 fi
 
 chmod -R o-rwx "$install_dir"
-chmod +x "$install_dir/miniflux"
 chown -R $app:www-data "$install_dir"
+chmod +x "$install_dir/miniflux"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
