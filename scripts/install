@@ -32,15 +32,15 @@ ynh_script_progression --message="Setting up source files..." --weight=1
 ynh_setup_source --dest_dir="$install_dir"
 
 chmod -R o-rwx "$install_dir"
-chmod +x "$install_dir/miniflux"
 chown -R $app:www-data "$install_dir"
+chmod +x "$install_dir/miniflux"
 
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/miniflux.conf" --destination="$install_dir/$app.conf"
+ynh_add_config --template="miniflux.conf" --destination="$install_dir/$app.conf"
 
 chmod 600 "$install_dir/$app.conf"
 chown $app "$install_dir/$app.conf"
