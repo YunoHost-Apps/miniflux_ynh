@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Lecteur de flux RSS minimaliste.
 
-**Version incluse :** 2.0.51~ynh1
+**Version incluse :** 2.0.51~ynh2
 
 ## Captures d’écran
 

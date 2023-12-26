@@ -28,7 +28,6 @@ ynh_psql_execute_as_root --sql="CREATE EXTENSION hstore;" --database=$db_name
 #=================================================
 ynh_script_progression --message="Setting up source files..." --weight=1
 
-# Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
 
 chmod -R o-rwx "$install_dir"
@@ -50,12 +49,10 @@ chown $app "$install_dir/$app.conf"
 #=================================================
 ynh_script_progression --message="Adding system configurations related to $app..." --weight=1
 
-# Create a dedicated NGINX config
 ynh_add_nginx_config
 
 ynh_add_systemd_config
 
-# Use logrotate to manage application logfile(s)
 ynh_use_logrotate
 
 yunohost service add $app --description="Minimalist feed reader" --log="/var/log/$app/$app.log"
@@ -65,7 +62,6 @@ yunohost service add $app --description="Minimalist feed reader" --log="/var/log
 #=================================================
 ynh_script_progression --message="Starting a systemd service..." --weight=2
 
-# Start a systemd service
 ynh_systemd_action --service_name=$app --action=start --log_path=systemd
 
 #=================================================
