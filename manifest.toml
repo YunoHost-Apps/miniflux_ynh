@@ -7,7 +7,7 @@ description.fr = "Agrégateur de flux RSS minimaliste"
 
 version = "2.1.1~ynh1"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "Apache-2.0"
