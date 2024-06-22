@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Miniflux
+# YunoHost 上的 Miniflux
 
 [![集成程度](https://dash.yunohost.org/integration/miniflux.svg)](https://dash.yunohost.org/appci/app/miniflux) ![工作状态](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
 
