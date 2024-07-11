@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Miniflux
 
-[![集成程度](https://dash.yunohost.org/integration/miniflux.svg)](https://dash.yunohost.org/appci/app/miniflux) ![工作状态](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/miniflux.svg)](https://ci-apps.yunohost.org/ci/apps/miniflux/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
 
 [![使用 YunoHost 安装 Miniflux](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=miniflux)
 
@@ -18,7 +18,7 @@
 
 Minimalist and opinionated RSS feed reader.
 
-**分发版本：** 2.1.3~ynh1
+**分发版本：** 2.1.4~ynh1
 
 ## 截图
 
