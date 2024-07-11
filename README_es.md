@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # Miniflux para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/miniflux.svg)](https://dash.yunohost.org/appci/app/miniflux) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/miniflux.svg)](https://ci-apps.yunohost.org/ci/apps/miniflux/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
 
 [![Instalar Miniflux con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=miniflux)
 
@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 Minimalist and opinionated RSS feed reader.
 
-**Versión actual:** 2.1.3~ynh1
+**Versión actual:** 2.1.4~ynh1
 
 ## Capturas
 

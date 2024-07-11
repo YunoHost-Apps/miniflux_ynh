@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Miniflux YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/miniflux.svg)](https://dash.yunohost.org/appci/app/miniflux) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/miniflux.svg)](https://ci-apps.yunohost.org/ci/apps/miniflux/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
 
 [![Instalatu Miniflux YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=miniflux)
 
@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 Minimalist and opinionated RSS feed reader.
 
-**Paketatutako bertsioa:** 2.1.3~ynh1
+**Paketatutako bertsioa:** 2.1.4~ynh1
 
 ## Pantaila-argazkiak
 
