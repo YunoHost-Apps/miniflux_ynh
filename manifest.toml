@@ -5,7 +5,7 @@ name = "Miniflux"
 description.en = "Minimalist and opinionated RSS feed reader"
 description.fr = "Agrégateur de flux RSS minimaliste"
 
-version = "2.2.0~ynh1"
+version = "2.2.0~ynh2"
 
 maintainers = []
 
@@ -16,7 +16,8 @@ admindoc = "https://miniflux.app/docs/index.html"
 code = "https://github.com/miniflux/v2"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.27"
+helpers_version = "2.1"
 architectures = ["amd64", "armhf", "arm64"]
 multi_instance = true
 
