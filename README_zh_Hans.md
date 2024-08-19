@@ -18,7 +18,7 @@
 
 Minimalist and opinionated RSS feed reader.
 
-**分发版本：** 2.2.0~ynh1
+**分发版本：** 2.2.0~ynh2
 
 ## 截图
 
