@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 Minimalist and opinionated RSS feed reader.
 
-**Versión actual:** 2.1.4~ynh1
+**Versión actual:** 2.2.0~ynh1
 
 ## Capturas
 
