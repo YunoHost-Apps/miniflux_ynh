@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 Minimalist and opinionated RSS feed reader.
 
-**Paketatutako bertsioa:** 2.2.0~ynh2
+**Paketatutako bertsioa:** 2.2.0~ynh3
 
 ## Pantaila-argazkiak
 
