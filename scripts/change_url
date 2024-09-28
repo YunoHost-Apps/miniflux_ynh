@@ -33,7 +33,6 @@ chmod 600 "$install_dir/$app.conf"
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-# Start a systemd service
 ynh_systemctl  --action=start --log_path=systemd
 
 #=================================================
