@@ -18,7 +18,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Minimalist and opinionated RSS feed reader.
 
-**Versi terkirim:** 2.2.0~ynh3
+**Versi terkirim:** 2.2.2~ynh1
 
 ## Tangkapan Layar
 
