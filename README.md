@@ -18,7 +18,7 @@ It shall NOT be edited by hand.
 
 Minimalist and opinionated RSS feed reader.
 
-**Shipped version:** 2.2.2~ynh1
+**Shipped version:** 2.2.3~ynh1
 
 ## Screenshots
 
