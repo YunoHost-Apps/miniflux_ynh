@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Lecteur de flux RSS minimaliste.
 
-**Version incluse :** 2.2.2~ynh1
+**Version incluse :** 2.2.3~ynh1
 
 ## Captures d’écran
 
