@@ -18,7 +18,7 @@ Hij mag NIET handmatig aangepast worden.
 
 Minimalist and opinionated RSS feed reader.
 
-**Geleverde versie:** 2.2.2~ynh1
+**Geleverde versie:** 2.2.3~ynh1
 
 ## Schermafdrukken
 
