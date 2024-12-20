@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Miniflux untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/miniflux.svg)](https://ci-apps.yunohost.org/ci/apps/miniflux/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/miniflux)](https://ci-apps.yunohost.org/ci/apps/miniflux/)
+![Status kerja](https://apps.yunohost.org/badge/state/miniflux)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/miniflux)
 
 [![Pasang Miniflux dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=miniflux)
 
@@ -18,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Minimalist and opinionated RSS feed reader.
 
-**Versi terkirim:** 2.2.3~ynh1
+**Versi terkirim:** 2.2.4~ynh1
 
 ## Tangkapan Layar
 

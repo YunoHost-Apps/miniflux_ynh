@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # Miniflux pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/miniflux.svg)](https://ci-apps.yunohost.org/ci/apps/miniflux/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/miniflux)](https://ci-apps.yunohost.org/ci/apps/miniflux/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/miniflux)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/miniflux)
 
 [![Installer Miniflux avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=miniflux)
 
@@ -18,7 +20,7 @@ Il NE doit PAS être modifié à la main.
 
 Lecteur de flux RSS minimaliste.
 
-**Version incluse :** 2.2.3~ynh1
+**Version incluse :** 2.2.4~ynh1
 
 ## Captures d’écran
 
