@@ -5,7 +5,9 @@
 
 # Miniflux для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/miniflux.svg)](https://ci-apps.yunohost.org/ci/apps/miniflux/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/miniflux)](https://ci-apps.yunohost.org/ci/apps/miniflux/)
+![Состояние работы](https://apps.yunohost.org/badge/state/miniflux)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/miniflux)
 
 [![Установите Miniflux с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=miniflux)
 
@@ -18,7 +20,7 @@
 
 Minimalist and opinionated RSS feed reader.
 
-**Поставляемая версия:** 2.2.3~ynh1
+**Поставляемая версия:** 2.2.4~ynh1
 
 ## Снимки экрана
 

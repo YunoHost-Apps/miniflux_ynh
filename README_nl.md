@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Miniflux voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/miniflux.svg)](https://ci-apps.yunohost.org/ci/apps/miniflux/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/miniflux.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/miniflux.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/miniflux)](https://ci-apps.yunohost.org/ci/apps/miniflux/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/miniflux)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/miniflux)
 
 [![Miniflux met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=miniflux)
 
@@ -18,7 +20,7 @@ Hij mag NIET handmatig aangepast worden.
 
 Minimalist and opinionated RSS feed reader.
 
-**Geleverde versie:** 2.2.3~ynh1
+**Geleverde versie:** 2.2.4~ynh1
 
 ## Schermafdrukken
 
