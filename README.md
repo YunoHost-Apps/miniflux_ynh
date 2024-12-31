@@ -20,7 +20,7 @@ It shall NOT be edited by hand.
 
 Minimalist and opinionated RSS feed reader.
 
-**Shipped version:** 2.2.4~ynh1
+**Shipped version:** 2.2.4~ynh2
 
 ## Screenshots
 
