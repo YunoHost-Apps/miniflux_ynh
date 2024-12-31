@@ -15,7 +15,7 @@ ynh_systemctl  --action=stop --log_path=systemd
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
-ynh_setup_source --dest_dir=$install_dir --keep="$app.conf"
+ynh_setup_source --dest_dir=$install_dir --keep="miniflux.conf"
 
 chmod +x "$install_dir/miniflux"
 
@@ -37,7 +37,7 @@ yunohost service add $app --description="Minimalist feed reader" --log="/var/log
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl  --action=start --log_path=systemd
+ynh_systemctl --action=start --log_path=systemd
 
 #=================================================
 # END OF SCRIPT
