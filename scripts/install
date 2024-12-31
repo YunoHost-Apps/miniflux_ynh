@@ -31,10 +31,10 @@ chmod +x "$install_dir/miniflux"
 #=================================================
 ynh_script_progression "Adding $app's configuration..."
 
-ynh_config_add --template="miniflux.conf" --destination="$install_dir/$app.conf"
+ynh_config_add --template="miniflux.conf" --destination="$install_dir/miniflux.conf"
 
-chmod 600 "$install_dir/$app.conf"
-chown $app "$install_dir/$app.conf"
+chmod 600 "$install_dir/miniflux.conf"
+chown $app "$install_dir/miniflux.conf"
 
 #=================================================
 # SYSTEM CONFIGURATION
@@ -54,7 +54,7 @@ yunohost service add $app --description="Minimalist feed reader" --log="/var/log
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl  --action=start --log_path=systemd
+ynh_systemctl --action=start --log_path=systemd
 
 #=================================================
 # END OF SCRIPT
