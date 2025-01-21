@@ -20,7 +20,7 @@
 
 Minimalist and opinionated RSS feed reader.
 
-**Поставляемая версия:** 2.2.4~ynh2
+**Поставляемая версия:** 2.2.5~ynh1
 
 ## Снимки экрана
 
