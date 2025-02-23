@@ -20,7 +20,7 @@ NON debe editarse manualmente.
 
 Minimalist and opinionated RSS feed reader.
 
-**Versión proporcionada:** 2.2.5~ynh1
+**Versión proporcionada:** 2.2.6~ynh1
 
 ## Capturas de pantalla
 

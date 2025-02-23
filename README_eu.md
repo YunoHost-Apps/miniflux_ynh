@@ -20,7 +20,7 @@ EZ editatu eskuz.
 
 Minimalist and opinionated RSS feed reader.
 
-**Paketatutako bertsioa:** 2.2.5~ynh1
+**Paketatutako bertsioa:** 2.2.6~ynh1
 
 ## Pantaila-argazkiak
 
