@@ -20,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Minimalist and opinionated RSS feed reader.
 
-**Versi terkirim:** 2.2.5~ynh1
+**Versi terkirim:** 2.2.6~ynh1
 
 ## Tangkapan Layar
 
