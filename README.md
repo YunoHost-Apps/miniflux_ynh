@@ -4,14 +4,14 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/master/logos/miniflux.png" width="32px" alt="Logo of Miniflux">
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/miniflux.png" width="32px" alt="Logo of Miniflux">
   Miniflux, packaged for YunoHost
 </h1>
 
 Minimalist and opinionated RSS feed reader
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://miniflux.app/)
-![Version: 2.2.7~ynh1](https://img.shields.io/badge/Version-2.2.7~ynh1-rgba(0,150,0,1)?style=for-the-badge)
+[![Version: 2.2.8~ynh1](https://img.shields.io/badge/Version-2.2.8~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/miniflux/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/miniflux"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
@@ -19,6 +19,8 @@ Minimalist and opinionated RSS feed reader
 </div>
 
 ## 📦 Developer info
+
+[![Automatic tests level](https://apps.yunohost.org/badge/cilevel/miniflux)](https://ci-apps.yunohost.org/ci/apps/miniflux/)
 
 🛠️ Upstream Miniflux repository: <https://github.com/miniflux/v2>
 
