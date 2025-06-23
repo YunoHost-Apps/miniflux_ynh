@@ -25,7 +25,6 @@ ynh_script_progression "Adding $app's configuration..."
 ynh_config_add --template="miniflux.conf" --destination="$install_dir/miniflux.conf"
 
 chmod 600 "$install_dir/miniflux.conf"
-chown $app "$install_dir/miniflux.conf"
 
 #=================================================
 # START SYSTEMD SERVICE
