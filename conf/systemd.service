@@ -9,6 +9,8 @@ User=__APP__
 Group=__APP__
 EnvironmentFile=__INSTALL_DIR__/miniflux.conf
 ExecStart=__INSTALL_DIR__/miniflux -c __INSTALL_DIR__/miniflux.conf
+StandardOutput=append:/var/log/__APP__/__APP__.log
+StandardError=inherit
 NonBlocking=true
 Restart=always
 
