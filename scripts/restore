@@ -38,7 +38,7 @@ yunohost service add $app --description="Minimalist feed reader" --log="/var/log
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --action=start --log_path=systemd
+ynh_systemctl --action=start --log_path="/var/log/$app/$app.log"
 
 ynh_systemctl --service=nginx --action=reload
 

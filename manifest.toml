@@ -5,9 +5,9 @@ name = "Miniflux"
 description.en = "Minimalist and opinionated RSS feed reader"
 description.fr = "Agrégateur de flux RSS minimaliste"
 
-version = "2.2.9~ynh1"
+version = "2.2.10~ynh1"
 
-maintainers = []
+maintainers = ["eric_G"]
 
 [upstream]
 license = "Apache-2.0"
@@ -56,18 +56,16 @@ ram.runtime = "50M"
         extract = false
         rename = "miniflux"
 
-        arm64.url = "https://github.com/miniflux/v2/releases/download/2.2.9/miniflux-linux-arm64"
-        arm64.sha256 = "46c198f069424dea733cf7c4d2935276b22067eb4ecf4e37c5b7eacf2d45eaed"
-        amd64.url = "https://github.com/miniflux/v2/releases/download/2.2.9/miniflux-linux-amd64"
-        amd64.sha256 = "3e3ed730467d9a9e6225c662c20b5d17965d9d6f10505c39eb757ca883943c6a"
-        armhf.url = "https://github.com/miniflux/v2/releases/download/2.2.9/miniflux-linux-armv7"
-        armhf.sha256 = "2f8cbb06acf31440b863c590832e122541431ed4103150490666a43f4fd7f520"
+        amd64.url = "https://github.com/miniflux/v2/releases/download/2.2.10/miniflux-linux-amd64"
+        amd64.sha256 = "d59a0e70a6d2360bb106799ad0d867739f896403e4f77f223c4d4c47cb6a6b96"
+        arm64.url = "https://github.com/miniflux/v2/releases/download/2.2.10/miniflux-linux-arm64"
+        arm64.sha256 = "7ea1d8d2fcc42362afeaaeeea34ebf9cac704b943f202b80c8ecd727a9272789"
+        armhf.url = "https://github.com/miniflux/v2/releases/download/2.2.10/miniflux-linux-armv7"
+        armhf.sha256 = "c53fbba610d1885ad09d3e878e041b70d8872af77bfb7c2acd5382d2a4f09012"
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = "^miniflux-linux-amd64$"
         autoupdate.asset.arm64 = "^miniflux-linux-arm64$"
         autoupdate.asset.armhf = "^miniflux-linux-armv7$"
-
-    [resources.ports]
 
     [resources.system_user]
 
@@ -76,6 +74,8 @@ ram.runtime = "50M"
     [resources.permissions]
     main.url = "/"
 
+    [resources.ports]
+    
     [resources.apt]
     packages = "postgresql"
 
