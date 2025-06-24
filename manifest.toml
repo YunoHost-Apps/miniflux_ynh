@@ -62,6 +62,7 @@ ram.runtime = "50M"
         arm64.sha256 = "7ea1d8d2fcc42362afeaaeeea34ebf9cac704b943f202b80c8ecd727a9272789"
         armhf.url = "https://github.com/miniflux/v2/releases/download/2.2.10/miniflux-linux-armv7"
         armhf.sha256 = "c53fbba610d1885ad09d3e878e041b70d8872af77bfb7c2acd5382d2a4f09012"
+        
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = "^miniflux-linux-amd64$"
         autoupdate.asset.arm64 = "^miniflux-linux-arm64$"
