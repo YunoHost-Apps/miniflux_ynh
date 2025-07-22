@@ -34,6 +34,12 @@ ynh_restore "/etc/logrotate.d/$app"
 yunohost service add $app --description="Minimalist feed reader" --log="/var/log/$app/$app.log"
 
 #=================================================
+# RESTORE VARIOUS FILES
+#=================================================
+
+ynh_restore "/var/log/$app/"
+
+#=================================================
 # START SYSTEMD SERVICE
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
