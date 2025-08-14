@@ -5,7 +5,7 @@ name = "Miniflux"
 description.en = "Minimalist and opinionated RSS feed reader"
 description.fr = "Agrégateur de flux RSS minimaliste"
 
-version = "2.2.11~ynh1"
+version = "2.2.11~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -74,6 +74,10 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+    api.url = "/v1"
+    api.show_tile = false
+    api.allowed = "visitors"
+    api.auth_header = false
 
     [resources.ports]
     
