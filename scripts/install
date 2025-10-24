@@ -14,7 +14,9 @@ ynh_app_setting_set --key=password --value=$password
 #=================================================
 ynh_script_progression "Creating a PostgreSQL database..."
 
-ynh_psql_db_shell <<< "CREATE EXTENSION hstore;"
+#ynh_psql_db_shell <<< "CREATE EXTENSION hstore;"
+# Fix error: pq: must be owner of extension hstore
+ynh_psql_db_shell <<< "DROP EXTENSION hstore;"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
