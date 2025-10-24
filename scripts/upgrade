@@ -18,6 +18,9 @@ ynh_setup_source --dest_dir=$install_dir --keep="miniflux.conf"
 
 chmod +x "$install_dir/miniflux"
 
+# Fix error: pq: must be owner of extension hstore
+ynh_psql_db_shell <<< "DROP EXTENSION hstore;"
+
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================
