@@ -15,7 +15,7 @@ ynh_app_setting_set --key=password --value=$password
 ynh_script_progression "Creating a PostgreSQL database..."
 
 ynh_psql_db_shell <<< "CREATE EXTENSION hstore;"
-ynh_psql_db_shell <<< "ALTER EXTENSION hstore OWNER TO $db_user;"
+sudo -u postgres psql -c "ALTER EXTENSION hstore OWNER TO $db_user;"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
