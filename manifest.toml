@@ -16,7 +16,7 @@ admindoc = "https://miniflux.app/docs/index.html"
 code = "https://github.com/miniflux/v2"
 
 [integration]
-yunohost = ">= 12.1.17"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = ["amd64", "armhf", "arm64"]
 multi_instance = true
