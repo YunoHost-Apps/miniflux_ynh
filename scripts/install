@@ -10,13 +10,6 @@ password=$YNH_APP_ARG_PASSWORD
 ynh_app_setting_set --key=password --value=$password
 
 #=================================================
-# CREATE A POSTGRESQL DATABASE
-#=================================================
-ynh_script_progression "Creating a PostgreSQL database..."
-
-ynh_psql_db_shell <<< "DROP EXTENSION hstore;"
-
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Setting up source files..."
