@@ -23,8 +23,8 @@ chmod +x "$install_dir/miniflux"
 #=================================================
 ynh_script_progression "Adding $app's configuration..."
 
-ynh_config_add --template="miniflux.conf" --destination="$install_dir/miniflux.conf"
-chmod 600 "$install_dir/miniflux.conf"
+#ynh_config_add --template="miniflux.conf" --destination="$install_dir/miniflux.conf"
+#chmod 600 "$install_dir/miniflux.conf"
 
 # Fix error: pq: must be owner of extension hstore
 ynh_psql_db_shell <<< "DROP EXTENSION hstore;"
